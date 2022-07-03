@@ -30,7 +30,7 @@ namespace Dearlership.Models
 
     public bool WorthBuying(int maxPrice)
     {
-      return (Price <= maxPrice);
+      return (_price <= maxPrice);
     }  
   } 
 }
