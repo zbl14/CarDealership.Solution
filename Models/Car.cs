@@ -2,9 +2,9 @@ namespace Dearlership.Models
 {
   public class Car
   {
-    public string MakeModel;
-    public int Price;
-    public int Miles;
+    private string MakeModel;
+    private int Price;
+    private int Miles;
 
     public Car(string makeModel, int price, int miles)
     {
